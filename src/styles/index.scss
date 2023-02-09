@@ -1,0 +1,20 @@
+@import './variables.scss';
+@import './reset.scss';
+@import './preview.scss';
+@import './display.scss';
+@import './layout.scss';
+@import './spacing.scss';
+@import './text.scss';
+@import './interactive.scss';
+
+html {
+    font-family: $font;
+    background-color: $background-color;
+    color: $green;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
